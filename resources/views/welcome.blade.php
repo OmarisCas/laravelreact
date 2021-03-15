@@ -15,11 +15,6 @@
     <div id="user">
         
     </div>
-    
-    <!-- React root DOM -->
-    <div id="faa">
-        
-    </div>
 
     <!-- React JS -->
     <script src="{{ asset('js/app.js') }}" defer></script>
