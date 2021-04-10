@@ -16,4 +16,7 @@ require('./components/Example');
 
 /** Tenemos que registrar el componente React dentro del archivo resources / js / app.js. */
  // Register React components
-require('./User');
+require('./components/User');
+require('./components/Calendars');
+require('./components/Dispos');
+require('./components/Persons');

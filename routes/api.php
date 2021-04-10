@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('persons','App\Http\Controllers\API\PersonaController@get_all');
+Route::get('dispos','API\DispositivoController@get_all');

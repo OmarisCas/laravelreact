@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+Route::get('/dispos', function () {
+    return view('dispos');
+});
+Route::get('/persons', function () {
+    return view('persons');
+});
+Route::get('/calendars', function () {
+    return view('calendars');
 });
